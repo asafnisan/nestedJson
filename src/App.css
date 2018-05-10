@@ -26,3 +26,35 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.commentWrapper > .children {
+  margin-left: 20px;
+  color: blue;
+}
+
+.open .children{
+  visibility: visible;
+}
+
+.closed .children {
+  visibility: hidden;
+  max-height: 0px
+}
+.mainDiv {
+  margin-left: 10%;
+  margin-top: 10%
+}
+
+.comment {
+  margin-bottom: 5px;
+}
+
+.expandCollapse {
+  display: inline;
+  margin-right: 5px
+}
+
+.delete {
+  display: inline;
+  color: grey
+}
