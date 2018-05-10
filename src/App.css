@@ -29,7 +29,7 @@
 
 .commentWrapper > .children {
   margin-left: 20px;
-  color: blue;
+  color: lightcoral;
 }
 
 .open .children{
@@ -41,8 +41,9 @@
   max-height: 0px
 }
 .mainDiv {
-  margin-left: 10%;
-  margin-top: 10%
+  margin-left: 7%;
+  margin-top: 7%;
+  margin-bottom: 10%
 }
 
 .comment {
@@ -51,10 +52,36 @@
 
 .expandCollapse {
   display: inline;
-  margin-right: 5px
+  width: 10px
 }
 
 .delete {
   display: inline;
   color: grey
+}
+
+div {
+  font-family: 'Roboto';
+}
+
+.content {
+  display: inline;
+  font-weight: 300;
+  margin-left: 5px
+}
+
+.expandCollapse {
+  font-weight: 100;
+}
+
+.delete {
+  font-weight: 100;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: lightcoral
+  
 }

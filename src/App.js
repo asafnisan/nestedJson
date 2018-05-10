@@ -37,6 +37,7 @@ class App extends Component {
     });
     return (
       <div className="mainDiv">
+        <div className="title">Nested Comments</div>
         {comments}
       </div>
     );
