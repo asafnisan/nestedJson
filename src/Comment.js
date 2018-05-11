@@ -38,7 +38,14 @@ class Comment extends Component {
         return(
             <div className={"commentWrapper " + (this.state.isOpen ? 'open' : 'closed')} >
                 <div className='comment'>
-                    <div className="expandCollapse" onClick={() => this.handleOpen()}>{this.state.isOpen ? '-' : '+'}</div>
+                    {this.props.children == undefined ? (
+                            <div className="expandCollapseEmpty">.</div>
+                        ) :
+                        (   
+                            <div className="expandCollapse" onClick={() => this.handleOpen()}>{this.state.isOpen ? '- ' : '+'}</div>
+                        )
+                    }
+                    
                     <div className="content">
                         {this.props.City + ' '}
                         {this.props.Name + ' '}

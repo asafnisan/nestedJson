@@ -85,3 +85,9 @@ div {
   color: lightcoral
   
 }
+
+.expandCollapseEmpty {
+  margin-right: 5px;
+  display: inline;
+  color: white
+}
