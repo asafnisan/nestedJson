@@ -9,10 +9,6 @@ var helpers = (() => {
                 dataWithRemovedComment.push(data[i])
             }
         }
-        console.log('logging dataWithRemovedComment')
-        console.log(dataWithRemovedComment)
-        console.log('logging commentId')
-        console.log(commentID)
         return dataWithRemovedComment
     }
     function toNested(flatData) {
